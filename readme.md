@@ -92,7 +92,3 @@ go run main.go
 # Start server with custom host and port
 go run main.go -host 127.0.0.1 -port 8080
 ```
-
-## License
-
-This project is licensed under the MIT License.
