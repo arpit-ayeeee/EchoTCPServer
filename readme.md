@@ -1,6 +1,6 @@
-# DiceDB TCP Server
+# TCP Server
 
-This repository implements a basic synchronous TCP server that allows clients to connect, send commands, and receive responses. The server logs each client connection and command and can handle multiple concurrent clients. It also includes configurable options for host and port settings through command-line flags.
+This repository implements a basic synchronous TCP server that allows clients to connect, send commands, and receive responses. The server logs each client connection and command. It also includes configurable options for host and port settings through command-line flags.
 
 ## Project Structure
 
@@ -36,8 +36,8 @@ This repository implements a basic synchronous TCP server that allows clients to
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/dicedb-tcp-server.git
-   cd dicedb-tcp-server
+   git clone https://github.com/yourusername/echotcpserver.git
+   cd echotcpserver
    ```
 
 2. **Run the server** with default settings:
