@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/dicedb/dice/config"
-	"github.com/dicedb/dice/server"
+	tcp "github.com/dicedb/dice/server"
 )
 
 // These are the commmand line flags which we'll give when running the server
@@ -18,5 +18,5 @@ func setupFlags() {
 func main() {
 	setupFlags()
 	log.Println("rolling the dice 🎲")
-	server.RunSyncTCPServer() //running a synchronous tcp server
+	tcp.RunSyncTCPServer() //running a synchronous tcp server
 }
